@@ -15,6 +15,8 @@
       - [Technologies](#technologies)
   - [How To Use](#how-to-use)
       - [Installation](#installation)
+  - [Content](#content)
+      - [What is Web Scraping](#what-is-web-scraping)
   - [References](#references)
   - [License](#license)
   - [Author Info](#author-info)
@@ -42,13 +44,20 @@ This project is an introduction to web scraping using the BeautifulSoup library 
 
 To install the necessary dependencies, you can use Poetry to manage the libraries. First, ensure you have Poetry installed, then run:
 
-
 ```bash
     pip install beautifulsoup4
     pip install lxml
 ```
 
 ---
+
+## Content
+
+#### What is Web Scraping
+
+- Process of extracting data from web pages
+- Usefulness in various applications, such as data collection for analysis, task automation, etc.
+- Focus on HTML and XML files
 
 ## References
 [Back To The Top](#read-me-template)

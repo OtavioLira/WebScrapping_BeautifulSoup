@@ -1,3 +1,5 @@
+### Importando e Inicializando BeautifulSoup
+
 from bs4 import BeautifulSoup, Comment
 
 # Carregando o contéudo HTML
@@ -9,13 +11,15 @@ html_doc = """
 # Inicializando o BeautifulSoup com lxml
 soup = BeautifulSoup(html_doc, "lxml")
 
+### Navegando pela estrutura HTML
+
 # Acessando o título da página
 title = soup.title
-#print(title.text) # Saída: Título da Página
+print(title.text) # Saída: Título da Página
 
 # Acessando parágrafos e classes
 p = soup.find("p", class_="titulo")
-#print(p.text)
+print(p.text)
 
 soup = BeautifulSoup("""<html>
 
